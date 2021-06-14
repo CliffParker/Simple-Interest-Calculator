@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Interest Rate Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+
+
+
+
+
+
+<body>
+
+
+
+<div class = "mainpage">
+
+<h1> Simple Interest Calculator</h1>
+
+
+
+<form>
+
+<table>
+
+<tr> 
+    <td> <label for="Amount">Amount </label> </td>
+
+    <td> <input id="Amount" name="Amount" value="1000000" type="number" min="0"> </td>
+
+    <td> </td>
+
+   
+</tr>
+
+
+
+<tr> 
+    <td> <label for="Interest_Rate">Interest Rate</label></td>
+
+    <td> <input id="Interest_Rate" oninput="X.value = parseFloat(Interest_Rate.value).toFixed(2)+'%' ;
+        
+        
+        
+        
+        
+        "
+         name="Interest_Rate" value="1.89452" type="range" min="0" max="100" step=".5"></td>
+
+    <td>  <output name="X"> </output>                                          
+
+    </td>
+
+   
+</tr>
+
+
+
+<tr> 
+    <td>  <label for="Years">No. of Years </label> </td>
+
+    <td>  <input id="Years" name="Years" value="5" min="0" type="number" step="1" > </td>
+
+    <td> </td>
+
+    
+</tr>
+
+
+
+<tr> 
+    <td> <input name="Compute" value="Compute" type="button" onclick="Output_funtion()" > </td>
+
+    <td>  </td>
+
+    <td>  </td>
+
+    
+</tr>
+
+
+
+</table>
+
+<br>
+<br>
+
+
+<div id="Output" class="Output"> </div>
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  ©  Everyone Can Get Rich
+</footer>
+
+
+
+    
+</div>
+
+
+
+</body>
+
+
+
+</html>
