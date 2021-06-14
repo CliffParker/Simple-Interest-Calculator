@@ -8,7 +8,7 @@ function Output_funtion () {
 
     var Am = P * (IR*T/100);
 
-    var D = 1*(2020+T);
+    var D = new Date().getFullYear() + T;
     
     document.getElementById("Output").innerHTML = 'If you deposit ' + P + ',' +
      '<br> at an interest rate of ' + IR + '%.' +
